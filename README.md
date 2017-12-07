@@ -5,3 +5,8 @@ rings计算用所用到文件包含，data/XDATCAR ,my-input(名字可以随意�
 下面给出一个简单的例子。介绍rings 软件的使用，和一些注意的地方。主要是XDATCAR和my-input的格式，自己摸索，修改起来真的很痛苦，尼玛。
 
 XDATCAR格式也要注意一下，具体看文件
+
+rings 软件好像只能在苹果系统和linux上运行，我的是值linux下运行的，安装个gfortran编译器，编译一下，才可以使用。
+编译过程：step1: ./configure  step2:make  step3: make install 编译 成功就可以使用了。
+
+祝好！
