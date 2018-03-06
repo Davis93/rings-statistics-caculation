@@ -41,3 +41,13 @@
  每次其他设定好，（随便设定，不为0就好），把你需要设定的那个设为 ，跑一下rings,会自动计算，给出一个参考值，我估计就是要设定的值，可能是体系固定，就已经确定了吧
  以上的trick,仅供参考，理论依据还没有找到，也是我无意间发现的，做科研要严谨哈。
  现在发现一个问题，不同的step,对应着不同的cutoff值，step一确定，cutoff也应该相应的确定，step越多，可能包含的信息越多，可能cutoff也就越准确吧。
+ 
+ cutoff值的设定其实官网给出了，但是只有一句话，就是全都设为0，然后由你选择详情见http://rings-code.sourceforge.net/index.php?option=com_content&view=article&id=56:input-file&catid=37:using-rings&Itemid=18
+ #######################################
+ Ge Ge   0.00                          #
+ S S     0.00                          #
+ Ge S    0.00                          #
+ Grtot   0.00                          #
+ #######################################
+then the R.I.N.G.S. code will fit values from the calculation and will proposed you to keep these values or not.
+See documentation here for details (link will be available soon).
